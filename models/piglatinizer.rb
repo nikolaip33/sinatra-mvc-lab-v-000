@@ -1,9 +1,5 @@
 class PigLatinizer
 
-    
-    def initialize
-    end
-
     def piglatinize(word)
         
         if /[aeiou]/ === word[0].downcase
