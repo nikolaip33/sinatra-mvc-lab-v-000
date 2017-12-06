@@ -10,7 +10,7 @@ class PigLatinizer
         #     "#{second}#{first}ay"
         # end
       else
-        "#{word.rotate(a.index(/[aeiou]/)}ay"
+        "#{word.rotate(a.index(/[aeiou]/))}ay"
       end
     end
 
