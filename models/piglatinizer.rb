@@ -8,9 +8,9 @@ class PigLatinizer
         # else
         #     cons = word.split(/[aeiou]/).first
         #     "#{word.sub(cons,"")}#{cons}ay"
-
-            # "#{word.sub(word.split(/[aeiou]/).first,"")}#{word.split(/[aeiou]/).first}ay"
-        end
+        #
+        #     # "#{word.sub(word.split(/[aeiou]/).first,"")}#{word.split(/[aeiou]/).first}ay"
+        # end
     end
 
     def to_pig_latin(sentence)
