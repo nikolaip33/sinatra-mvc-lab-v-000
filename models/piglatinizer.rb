@@ -11,7 +11,7 @@ class PigLatinizer
         # end
       else
         word.rotate until /[aeiou]/ === word[0].downcase
-        
+
       end
     end
 
