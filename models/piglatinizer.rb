@@ -10,6 +10,7 @@ class PigLatinizer
         #     "#{second}#{first}ay"
         # end
       else
+        binding.pry
         "#{word.rotate(a.index(/[aeiou]/))}ay"
       end
     end
