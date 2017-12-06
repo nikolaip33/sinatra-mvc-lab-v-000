@@ -6,7 +6,7 @@ class PigLatinizer
             "#{word}way"
         else
             cons = word.split(/[aeiou]/).first
-            "#{word.sub(converts,"")}#{cons}ay"
+            "#{word.sub(cons,"")}#{cons}ay"
         end
       # else
       #   binding.pry
