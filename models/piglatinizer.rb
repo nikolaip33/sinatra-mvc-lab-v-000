@@ -10,7 +10,10 @@ class PigLatinizer
         #     "#{second}#{first}ay"
         # end
       else
-        word.rotate! until word[0].downcase.match(/[aeiou]/)
+        new_word = ""
+        until new_word[0].downcase.match(/[aeiou]/)
+          new_word = word.rotate
+        end
         word + "ay"
       end
     end
