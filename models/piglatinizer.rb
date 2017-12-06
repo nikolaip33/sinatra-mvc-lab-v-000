@@ -14,7 +14,7 @@ class PigLatinizer
         until new_word[0].downcase.match(/[aeiou]/)
           new_word = word.rotate
         end
-        word + "ay"
+        new_word + "ay"
       end
     end
 
