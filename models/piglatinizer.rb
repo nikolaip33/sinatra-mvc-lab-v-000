@@ -10,8 +10,7 @@ class PigLatinizer
         #     "#{second}#{first}ay"
         # end
       else
-        binding.pry
-        "#{word.rotate(word.index(/[aeiou]/))}ay"
+        arr = word.split
       end
     end
 
