@@ -11,7 +11,7 @@ class PigLatinizer
         # end
       else
         binding.pry
-        "#{word.rotate(a.index(/[aeiou]/))}ay"
+        "#{word.rotate(word.index(/[aeiou]/))}ay"
       end
     end
 
