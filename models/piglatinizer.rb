@@ -2,7 +2,7 @@ class PigLatinizer
 
     def piglatinize(word)
 
-        if /[aeiou]/ === word[0].downcase
+        if word[0].downcase.match(/[aeiou]/)
             "#{word}way"
         else
             cons = word.split(/[aeiou]/).first
