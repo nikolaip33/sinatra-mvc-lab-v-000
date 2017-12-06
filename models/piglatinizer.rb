@@ -11,6 +11,7 @@ class PigLatinizer
         # end
       else
         arr = word.split
+        binding.pry
       end
     end
 
